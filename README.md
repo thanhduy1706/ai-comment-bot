@@ -43,7 +43,7 @@ Before setting up the bot, ensure you have the following:
 - **Google Chrome Browser:** Ensure it's installed on your system.
 - **ChromeDriver:** Managed automatically by `webdriver-manager`, so no manual setup is required.
 - **OpenAI API Key:** Sign up at [OpenAI](https://platform.openai.com/signup/) to obtain your API key.
-- **Facebook Account:** A valid Facebook account to post comments.
+- **Facebook Account:** A Facebook account to post comments.
 
 ---
 
@@ -78,6 +78,7 @@ Before setting up the bot, ensure you have the following:
    webdriver-manager
    openai
    python-dotenv
+   pre-commit
    ```
 
 ---
@@ -102,8 +103,9 @@ Before setting up the bot, ensure you have the following:
    Replace:
 
    - `your_openai_api_key_here` with your actual OpenAI API key.
+   - `gpt-4o-mini` with the desired OpenAI model (e.g., `gpt-4`, `gpt-4-turbo`, `gpt-4o-mini`).
+   - `Generate a friendly, specific, and engaging Facebook comment.` with your desired OpenAI prompt.
    - `https://www.facebook.com/your_post_url_here` with the URL of the Facebook post you want to comment on.
-   - `CHROME_BINARY_PATH` with the path to your Chrome executable if it's installed in a different location.
 
 ---
 
