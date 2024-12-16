@@ -76,7 +76,7 @@ Before setting up the bot, ensure you have the following:
    ```
    selenium
    webdriver-manager
-   openai
+   openai==0.28
    python-dotenv
    pre-commit
    ```
